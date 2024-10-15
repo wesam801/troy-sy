@@ -60,6 +60,12 @@ body::after {
     transform: translate(0);
   }
   .box .date {
-    /* display: block; */
+    div {
+      margin: 30px 10px;
+      padding: 7px;
+      border: 1px solid red;
+      border-radius: 5px;
+      font-size: 20px;
+    }
   }
 }
