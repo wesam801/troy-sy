@@ -53,15 +53,6 @@ body::after {
   }
 }
 @media (max-width: 700px) {
-  .box h2 {
-    font-size: 40px;
-  }
-  .box .allDate {
-    margin: 40px 0;
-    p {
-      font-size: 30px;
-    }
-  }
   .box {
     position: relative;
     top: 0;
