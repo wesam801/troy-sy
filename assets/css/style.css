@@ -50,6 +50,9 @@ body::after {
     border: 1px solid red;
     border-radius: 5px;
     font-size: 40px;
+    span {
+      margin: 0 3px;
+    }
   }
 }
 @media (max-width: 700px) {
@@ -58,6 +61,15 @@ body::after {
     top: 0;
     left: 0;
     transform: translate(0);
+  }
+  .box h2 {
+    font-size: 30px;
+  }
+  .box .allDate {
+    margin: 40px 0;
+    p {
+      font-size: 25px;
+    }
   }
   .box .date {
     div {
